@@ -1,0 +1,217 @@
+{
+  "contractName": "DStorage",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/DStorage.sol\":\"DStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/DStorage.sol\":{\"keccak256\":\"0xfe5bf8f6d51ecb93b20474a256d11f2ed609368f2caab0d385ce11c40fd50f92\",\"urls\":[\"bzz-raw://b55856edd0ceb55a7fbdfb1ff52e84c06e2274c755886b2065721d170779a72f\",\"dweb:/ipfs/QmP4QXeufoQc9jUBV6FuczWM8nXBQErWtXxrnXAGsi3zBm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158204ac09c2476abffa5d77c369cb8167d1ba6ba1fa123274ea1f62459363c89e7fc64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158204ac09c2476abffa5d77c369cb8167d1ba6ba1fa123274ea1f62459363c89e7fc64736f6c63430005100032",
+  "sourceMap": "25:490:0:-;;;134:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;134:26:0;25:490;;;;;;",
+  "deployedSourceMap": "25:490:0:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract DStorage {\n  // Name\n  // Number of files\n  // Mapping fileId=>Struct \n\n  // Struct\n\n\n  // Event\n\n  constructor() public {\n  }\n\n  // Upload File function\n\n    // Make sure the file hash exists\n\n    // Make sure file type exists\n\n    // Make sure file description exists\n\n    // Make sure file fileName exists\n\n    // Make sure uploader address exists\n\n    // Make sure file size is more than 0\n\n\n    // Increment file id\n\n    // Add File to the contract\n\n    // Trigger an event\n\n}",
+  "sourcePath": "C:\\Users\\rishi\\Desktop\\programs\\blockchain\\dropbox\\src\\contracts\\DStorage.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/DStorage.sol",
+    "exportedSymbols": {
+      "DStorage": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "DStorage",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "155:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "145:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:0"
+            },
+            "scope": 6,
+            "src": "134:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "25:490:0"
+      }
+    ],
+    "src": "0:515:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/src/contracts/DStorage.sol",
+      "exportedSymbols": {
+        "DStorage": [
+          6
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6
+          ],
+          "name": "DStorage",
+          "scope": 7
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 6,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "145:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3,
+                "name": "ParameterList",
+                "src": "155:0:0"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4,
+                "name": "Block",
+                "src": "155:5:0"
+              }
+            ],
+            "id": 5,
+            "name": "FunctionDefinition",
+            "src": "134:26:0"
+          }
+        ],
+        "id": 6,
+        "name": "ContractDefinition",
+        "src": "25:490:0"
+      }
+    ],
+    "id": 7,
+    "name": "SourceUnit",
+    "src": "0:515:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA57021C29803d205d843D976701Cb3617d095B2A",
+      "transactionHash": "0x4353519a2fc56c4d14e7ebe5902460b5f1c76d82113a9c040682e32962c8c9b2"
+    }
+  },
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-07-27T06:14:55.741Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
