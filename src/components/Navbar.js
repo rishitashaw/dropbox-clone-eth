@@ -9,7 +9,7 @@ class Navbar extends Component {
         <img src={box} width="30" height="30" className="align-top" alt="" />
         <p className="text-white">Dropbox</p>
         <ul className="navbar-nav px-3">
-          <b className="text-white">{"0x0"}</b>
+          {this.props.account ? <img className='ml-2' width="30" height="30" src={`data:image/png;base64,${new Identicon(this.props.account).toString()}`} /> : <span></span>}
         </ul>
       </nav>
     );
